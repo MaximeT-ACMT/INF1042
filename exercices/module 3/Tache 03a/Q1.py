@@ -1,4 +1,4 @@
 # Demande le nom d'utilisateur
-Name = input ("Quel est votre nom? ")
+Name = input ("C'est quoi votre nom? ")
 # Dire bonjour au person
 print( "Bonjour (Nom) ")
