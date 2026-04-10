@@ -1,0 +1,1 @@
+couleurs = {"rouge", "vert", "bleu"}
