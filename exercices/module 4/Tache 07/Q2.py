@@ -1,3 +1,3 @@
-notes = {"math": 63, "Français": 72, "science": 80}
+notes = {"math": 78, "Français": 85, "science": 91}
 
 print(notes["science"])
