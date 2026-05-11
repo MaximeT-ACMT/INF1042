@@ -1,10 +1,10 @@
 try:
-    entree = input("Entrez votre âge : ")
-    if not entree.isdigit():
-        raise ValueError("l'âge doit être un nombre entier.")
+    user_input = input("Enter your age: ")
+    if not user_input.isdigit():
+        raise ValueError("age must be a whole number.")
     
-    age = int(entree)
-    print(f"Vous avez {age} ans.")
+    age = int(user_input)
+    print(f"You are {age} years old.")
 
 except ValueError as e:
-    print(f"Erreur : {e}")
+    print(f"Error: {e}")
